@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang=”es”>
+    <head> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <title>Iniciar sesión</title> 
+        <link rel="stylesheet" href="style.css"> <!-- Este enlace es necesario si usas una hoja externa-->    
+        <style>        /* Estas etiquetas son necesarias si usas CSS interno */ </style>
+    </head>
+
+    <body> 
+        <h1>Sleepopolis</h1> 
+        <header>Registrate</header>
+        <form enctype="text/plain" method="POST" action="index.php">
+            Usuario:<input type="text" name="user" placeholder="user" minlength="10" required=true><br></br>
+             Contraseña:<input type="password" name="direccion" placeholder="Password" minlength="10" required=true><br></br>
+             Correo:<input type="email" name="correo" placeholder="E-mail" minlength="20" required=true><br></br>
+        <button  name="button" >Registrarte</button>
+        </form>
+        <p>¿Ya tienes una cuenta?</p>
+        <a href="http://localhost:5500/inicia-sesion.html"> Iniciar sesión</a>
+    </body>
+</html>
